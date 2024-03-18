@@ -1,33 +1,50 @@
 import React from "react";
 import { Breadcrumbs, Link, Typography } from "@mui/material";
-import { Route, Routes } from "react-router-dom";
+import { useLocation, Link as RouterLink } from "react-router-dom";
+import { styled } from "@mui/system";
+
+// Styled components
+const StyledBreadcrumbs = styled(Breadcrumbs)({
+  padding: "10px",
+  backgroundColor: "#f5f5f5",
+  borderRadius: "5px",
+  marginBottom: "20px",
+});
+
+const StyledLink = styled(Link)({
+  textDecoration: "none",
+  color: "#1976d2",
+  "&:hover": {
+    textDecoration: "underline",
+  },
+});
 
 const CustomBreadcrumbs = () => {
-  const routes = [
-    { path: "/", breadcrumbName: "Home" },
-    { path: "/students", breadcrumbName: "Students" },
-    { path: "/attendance", breadcrumbName: "Attendance" },
-  ];
+  const location = useLocation();
+  const pathnames = location.pathname.split("/").filter((x) => x);
+
+  const isAuth = localStorage.getItem("isAuth") === "true";
+
+  if (!isAuth) {
+    return null;
+  }
 
   return (
-    <Routes>
-      {routes.map((route) => (
-        <Route
-          key={route.path}
-          path={route.path}
-          element={
-            <Breadcrumbs aria-label="breadcrumb">
-              <Link underline="hover" color="inherit" href={route.path}>
-                {route.breadcrumbName}
-              </Link>
-              <Typography color="text.primary">
-                {route.breadcrumbName}
-              </Typography>
-            </Breadcrumbs>
-          }
-        />
-      ))}
-    </Routes>
+    <StyledBreadcrumbs aria-label="breadcrumb">
+      {pathnames.map((name, index) => {
+        const routeTo = `/${pathnames.slice(0, index + 1).join("/")}`;
+        const isLast = index === pathnames.length - 1;
+        return isLast ? (
+          <Typography key={routeTo} color="text.primary">
+            {name}
+          </Typography>
+        ) : (
+          <StyledLink key={routeTo} component={RouterLink} to={routeTo}>
+            {name}
+          </StyledLink>
+        );
+      })}
+    </StyledBreadcrumbs>
   );
 };
 
