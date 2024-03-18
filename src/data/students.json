@@ -1,0 +1,542 @@
+[
+    {
+        "rollNumber": 1,
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "age": 22,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 2,
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "age": 21,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 3,
+        "name": "Michael Johnson",
+        "email": "michael.johnson@example.com",
+        "age": 23,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": false
+    },
+    {
+        "rollNumber": 4,
+        "name": "Emily Brown",
+        "email": "emily.brown@example.com",
+        "age": 22,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 5,
+        "name": "James Wilson",
+        "email": "james.wilson@example.com",
+        "age": 23,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 6,
+        "name": "Olivia Martinez",
+        "email": "olivia.martinez@example.com",
+        "age": 22,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": false
+    },
+    {
+        "rollNumber": 7,
+        "name": "Liam Anderson",
+        "email": "liam.anderson@example.com",
+        "age": 21,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 8,
+        "name": "Sophia Thomas",
+        "email": "sophia.thomas@example.com",
+        "age": 23,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 9,
+        "name": "Noah Jackson",
+        "email": "noah.jackson@example.com",
+        "age": 22,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": false
+    },
+    {
+        "rollNumber": 10,
+        "name": "Ava White",
+        "email": "ava.white@example.com",
+        "age": 21,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 11,
+        "name": "Ethan Garcia",
+        "email": "ethan.garcia@example.com",
+        "age": 23,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": false
+    },
+    {
+        "rollNumber": 12,
+        "name": "Isabella Martinez",
+        "email": "isabella.martinez@example.com",
+        "age": 22,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 13,
+        "name": "Mason Thompson",
+        "email": "mason.thompson@example.com",
+        "age": 21,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 14,
+        "name": "Amelia Robinson",
+        "email": "amelia.robinson@example.com",
+        "age": 22,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": false
+    },
+    {
+        "rollNumber": 15,
+        "name": "Lucas Rodriguez",
+        "email": "lucas.rodriguez@example.com",
+        "age": 23,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 16,
+        "name": "Avery Carter",
+        "email": "avery.carter@example.com",
+        "age": 21,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": false
+    },
+    {
+        "rollNumber": 17,
+        "name": "Logan Hernandez",
+        "email": "logan.hernandez@example.com",
+        "age": 23,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 18,
+        "name": "Ella Gonzalez",
+        "email": "ella.gonzalez@example.com",
+        "age": 22,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": false
+    },
+    {
+        "rollNumber": 19,
+        "name": "Carter Wright",
+        "email": "carter.wright@example.com",
+        "age": 21,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 20,
+        "name": "Henry Perez",
+        "email": "henry.perez@example.com",
+        "age": 23,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 21,
+        "name": "Scarlett Collins",
+        "email": "scarlett.collins@example.com",
+        "age": 22,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": false
+    },
+    {
+        "rollNumber": 22,
+        "name": "Wyatt Evans",
+        "email": "wyatt.evans@example.com",
+        "age": 23,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 23,
+        "name": "Evelyn Stewart",
+        "email": "evelyn.stewart@example.com",
+        "age": 22,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 24,
+        "name": "Gavin Murphy",
+        "email": "gavin.murphy@example.com",
+        "age": 23,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": false
+    },
+    {
+        "rollNumber": 25,
+        "name": "Zoey Rivera",
+        "email": "zoey.rivera@example.com",
+        "age": 21,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 26,
+        "name": "Liam Cooper",
+        "email": "liam.cooper@example.com",
+        "age": 22,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": false
+    },
+    {
+        "rollNumber": 27,
+        "name": "Charlotte Reed",
+        "email": "charlotte.reed@example.com",
+        "age": 23,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 28,
+        "name": "Landon Bailey",
+        "email": "landon.bailey@example.com",
+        "age": 21,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": false
+    },
+    {
+        "rollNumber": 29,
+        "name": "Nora Flores",
+        "email": "nora.flores@example.com",
+        "age": 22,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 30,
+        "name": "Jack Hill",
+        "email": "jack.hill@example.com",
+        "age": 23,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 31,
+        "name": "Olivia Ward",
+        "email": "olivia.ward@example.com",
+        "age": 22,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": false
+    },
+    {
+        "rollNumber": 32,
+        "name": "Ethan Morris",
+        "email": "ethan.morris@example.com",
+        "age": 23,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 33,
+        "name": "Ava Richardson",
+        "email": "ava.richardson@example.com",
+        "age": 21,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 34,
+        "name": "Mason Powell",
+        "email": "mason.powell@example.com",
+        "age": 22,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": false
+    },
+    {
+        "rollNumber": 35,
+        "name": "Amelia Long",
+        "email": "amelia.long@example.com",
+        "age": 23,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": false
+    },
+    {
+        "rollNumber": 36,
+        "name": "Lucas Butler",
+        "email": "lucas.butler@example.com",
+        "age": 21,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 37,
+        "name": "Harper Ward",
+        "email": "harper.ward@example.com",
+        "age": 22,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 38,
+        "name": "Logan James",
+        "email": "logan.james@example.com",
+        "age": 23,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": false
+    },
+    {
+        "rollNumber": 39,
+        "name": "Evelyn Miller",
+        "email": "evelyn.miller@example.com",
+        "age": 22,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 40,
+        "name": "Owen Nelson",
+        "email": "owen.nelson@example.com",
+        "age": 23,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 41,
+        "name": "Ella Lewis",
+        "email": "ella.lewis@example.com",
+        "age": 21,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": false
+    },
+    {
+        "rollNumber": 42,
+        "name": "William Hughes",
+        "email": "william.hughes@example.com",
+        "age": 22,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 43,
+        "name": "Avery Garcia",
+        "email": "avery.garcia@example.com",
+        "age": 23,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 44,
+        "name": "Benjamin Martinez",
+        "email": "benjamin.martinez@example.com",
+        "age": 22,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": false
+    },
+    {
+        "rollNumber": 45,
+        "name": "Charlotte Powell",
+        "email": "charlotte.powell@example.com",
+        "age": 23,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": false
+    },
+    {
+        "rollNumber": 46,
+        "name": "Michael Rodriguez",
+        "email": "michael.rodriguez@example.com",
+        "age": 21,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 47,
+        "name": "Scarlett Perez",
+        "email": "scarlett.perez@example.com",
+        "age": 22,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 48,
+        "name": "Jackie Richardson",
+        "email": "jackie.richardson@example.com",
+        "age": 23,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": false
+    },
+    {
+        "rollNumber": 49,
+        "name": "Nathan Reed",
+        "email": "nathan.reed@example.com",
+        "age": 22,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 50,
+        "name": "Madison Bell",
+        "email": "madison.bell@example.com",
+        "age": 23,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 51,
+        "name": "Alexander Gonzales",
+        "email": "alexander.gonzales@example.com",
+        "age": 21,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": false
+    },
+    {
+        "rollNumber": 52,
+        "name": "Chloe Foster",
+        "email": "chloe.foster@example.com",
+        "age": 22,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": false
+    },
+    {
+        "rollNumber": 53,
+        "name": "Christopher Peterson",
+        "email": "christopher.peterson@example.com",
+        "age": 23,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 54,
+        "name": "Penelope Coleman",
+        "email": "penelope.coleman@example.com",
+        "age": 22,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 55,
+        "name": "Nicholas Barnes",
+        "email": "nicholas.barnes@example.com",
+        "age": 23,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": false
+    },
+    {
+        "rollNumber": 56,
+        "name": "Hannah Ramirez",
+        "email": "hannah.ramirez@example.com",
+        "age": 22,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 57,
+        "name": "Daniel Hughes",
+        "email": "daniel.hughes@example.com",
+        "age": 23,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    },
+    {
+        "rollNumber": 58,
+        "name": "Grace Peterson",
+        "email": "grace.peterson@example.com",
+        "age": 21,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": false
+    },
+    {
+        "rollNumber": 59,
+        "name": "Elijah Flores",
+        "email": "elijah.flores@example.com",
+        "age": 22,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": false
+    },
+    {
+        "rollNumber": 60,
+        "name": "Victoria Stewart",
+        "email": "victoria.stewart@example.com",
+        "age": 23,
+        "branch": "Computer Science",
+        "semester": 8,
+        "isPresent": true
+    }
+]
