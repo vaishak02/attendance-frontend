@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Box, Container, Typography, TextField, Button } from "@mui/material";
 import { styled } from "@mui/system";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const SignInContainer = styled(Container)(({ theme }) => ({
   marginTop: theme.spacing(8),
@@ -31,11 +31,13 @@ const SignIn = () => {
     }));
   };
 
+  const navigate = useNavigate();
+
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle sign-in logic here, such as sending form data to your backend
     console.log("Sign-in form data:", formData);
-    // Redirect to appropriate page after successful sign-in
+    navigate("/login");
   };
 
   return (
@@ -100,7 +102,7 @@ const SignIn = () => {
       </SignInForm>
       <Box mt={2}>
         <Typography variant="body2">
-          Already have an account?{" "}
+          Already have an account?
           <Link to="/login" className="text-lg text-blue-700">
             Login
           </Link>
