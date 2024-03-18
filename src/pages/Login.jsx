@@ -32,6 +32,7 @@ const Login = () => {
     if (email === hardcodedEmail && password === hardcodedPassword) {
       // Redirect to /home upon successful login
       localStorage.setItem("isAuth", true);
+      localStorage.setItem("username", hardcodedEmail);
       navigate("/home");
     } else {
       alert("Invalid email or password. Please try again.");
