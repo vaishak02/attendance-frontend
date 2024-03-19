@@ -14,6 +14,7 @@ import SignIn from "./pages/SignIn";
 import Students from "./pages/Students";
 import Attendance from "./pages/Attendance";
 import Profile from "./pages/Profile";
+import LandingPage from "./pages/LandingPage";
 
 const PrivateRoutes = () => {
   const isAuth = localStorage.getItem("isAuth");
@@ -39,6 +40,7 @@ function App() {
             <Route path="/home/profile" element={<Profile />} />
           </Route>
           <Route element={<RestrictedRoutes />}>
+            <Route path="/" element={<LandingPage />} />
             <Route path="/login" element={<Login />} />
             <Route path="/sign-in" element={<SignIn />} />
           </Route>
