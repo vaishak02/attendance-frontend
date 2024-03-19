@@ -1,18 +1,22 @@
 import React, { useState } from "react";
-import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
-import IconButton from "@mui/material/IconButton";
+import {
+  AppBar,
+  Box,
+  Button,
+  IconButton,
+  Menu,
+  MenuItem,
+  Toolbar,
+  Typography,
+  Drawer,
+  List,
+  ListItem,
+  ListItemText,
+  ListItemButton, // Import ListItemButton
+} from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import Drawer from "@mui/material/Drawer";
-import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemText from "@mui/material/ListItemText";
-import { Link as RouterLink, useNavigate, useLocation } from "react-router-dom";
+import { Link as RouterLink, useLocation, useNavigate } from "react-router-dom";
 import { AccountCircle } from "@mui/icons-material";
-import { Button, Menu } from "@mui/material";
 
 const navItems = [
   { text: "Home", route: "/home" },
@@ -20,20 +24,20 @@ const navItems = [
   { text: "Attendance", route: "/home/attendance" },
 ];
 
-export default function Navbar() {
-  const [drawerOpen, setDrawerOpen] = useState(false);
+const Navbar = () => {
   const [accountMenuOpen, setAccountMenuOpen] = useState(false);
+  const [drawerOpen, setDrawerOpen] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
   const isAuth = localStorage.getItem("isAuth") === "true";
   const userName = localStorage.getItem("userName");
 
-  const toggleDrawer = () => {
-    setDrawerOpen(!drawerOpen);
-  };
-
   const toggleAccountMenu = () => {
     setAccountMenuOpen(!accountMenuOpen);
+  };
+
+  const toggleDrawer = () => {
+    setDrawerOpen(!drawerOpen);
   };
 
   const handleLogout = () => {
@@ -44,6 +48,12 @@ export default function Navbar() {
 
   const handleSignIn = () => {
     navigate("/sign-in");
+  };
+
+  const handleAttendanceSystemClick = () => {
+    if (!isAuth) {
+      navigate("/");
+    }
   };
 
   const drawerWidth = 240;
@@ -88,7 +98,12 @@ export default function Navbar() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          <Typography
+            variant="h6"
+            component="div"
+            sx={{ flexGrow: 1, cursor: "pointer" }}
+            onClick={handleAttendanceSystemClick}
+          >
             Attendance System
           </Typography>
           {location.pathname === "/login" ? (
@@ -138,10 +153,12 @@ export default function Navbar() {
                       py: 2,
                     }}
                   >
-                    <Button component={RouterLink} to="/home/profile">
+                    <MenuItem component={RouterLink} to="/home/profile">
+                      {" "}
+                      {/* Change MenuItem */}
                       Profile
-                    </Button>
-                    <Button onClick={handleLogout}>Logout</Button>
+                    </MenuItem>
+                    <MenuItem onClick={handleLogout}>Logout</MenuItem>
                   </Box>
                 </Menu>
               )}
@@ -167,4 +184,6 @@ export default function Navbar() {
       )}
     </Box>
   );
-}
+};
+
+export default Navbar;
